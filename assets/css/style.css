@@ -1,0 +1,110 @@
+/*commenting in css*/
+
+/* voltar a cor do link acessado para azul/ não mudar nada*/
+
+a {
+    text-decoration: none;
+}
+
+a:link a:visited {
+    color: blue;
+  }
+
+a:hover {
+    color: red;
+}
+
+.footer {
+	border-style: solid;
+	border-width: 0.0625rem;
+    margin: 0.65rem;
+	padding: 0.65rem;
+    display: flex; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 97%;
+}
+
+.nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.nav-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 0.65rem;
+	font-family: 'Georgia', serif;
+}
+
+.container {
+	margin: 1.25rem;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+}
+
+.aparelhos{
+	display: flex;
+	justify-content: space-around;
+    flex-wrap: wrap;	
+}
+
+.aparelho {
+	max-width: 14rem;
+	max-height: 14rem;
+	margin: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column; /*serve para colocar o título embaixo da imagem*/
+	font-size: 1rem;
+	font-family: 'Georgia', serif;
+}
+
+.title {
+	font-size: 3rem;
+	font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 4rem;
+}
+
+.subtitle {
+	font-size: 2rem;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+.subsubtitle {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.list-item {
+    margin: 2rem;
+	padding: 0.65rem;
+    display: flex; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 97%;
+}
+
+.image {
+	height:10rem;
+	width: 10rem;
+	display: inline;
+	justify-content: flex-end; 
+}
+
+
+/*@media {
+
+}*/
