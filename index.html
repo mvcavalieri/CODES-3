@@ -1,17 +1,53 @@
+<!-- commenting in html-->
+
 <!DOCTYPE html>
 <html lang = "pt-br">
 <meta charset = "utf-8">
 
 <head>
-	<link href = "./assets/css/reset.css" rel = "stylesheet">
-	<script src = "./assets/js/codes.js"></script>
-	<link href = "https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 	<title>S.O.S. tech</title>
+	<link href = "./assets/css/reset.css" rel = "stylesheet">
+	<link href = "./assets/css/style.css" rel = "stylesheet">
+	<!--<script src = "./assets/js/codes.js"></script>-->
+	<link href = "https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 
 <body>
-	
+
+	<h1 class="title">S.O.S. tech</h1>
+
+	<div class="container">
+		<h2 class="subtitle">Prontos para te ajudar</h2>
+	</div>
+
+	<!--Arrumar depois-->
+	<!--<ul class="categorias-pai">
+		{{#each Aparelhos}}
+		<li class= "aparelho">
+		  <a href="aparelho.html?key={{@key}}">{{this.Aparelhos}}</a>
+		  <img class="imagem" src="assets/img/{{this.imagem}}" alt="{{this.Aparelhos}}">
+		</li>
+		{{/each}}
+	</ul>-->
+<h3 class = "subsubtitle"> Qual aparelho você está usando?</h3>
+
+	<ul class = "aparelhos">
+		<li class = "aparelho"><img class="image" src="assets/img/computador.png" alt="computador"><h4>Computador</h4></li>
+		<li class = "aparelho"><img class="image" src="assets/img/celular.png" alt="celular"><h4>Celular</h4></li>
+	</ul>
+
+	<footer class = "footer">
+		<ul class = "nav">
+			<li class = "nav-item"><button onclick="goBack()">Voltar</button><script>
+				function goBack() {
+ 					window.history.back();
+				}
+			</script></li>
+			<li class = "nav-item"><a href="index.html">Home</a></li>
+		</ul>
+	</footer>
+
 </body>
 
 </html>
