@@ -104,7 +104,14 @@ a:hover {
 	justify-content: flex-end; 
 }
 
+.duvidas {
+	justify-content:center;
+	display: flex;
+}
 
+.cduvidas {
+	margin: 2rem;
+}
 /*@media {
 
 }*/
