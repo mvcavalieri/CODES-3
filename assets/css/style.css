@@ -38,7 +38,7 @@ a:hover {
 	justify-content: center;
 	align-items: center;
 	margin-right: 0.65rem;
-	font-family: 'Georgia', serif;
+	font-family: 'Palatino', serif;
 }
 
 .container {
@@ -66,12 +66,12 @@ a:hover {
 	align-items: center;
 	flex-direction: column; /*serve para colocar o título embaixo da imagem*/
 	font-size: 1rem;
-	font-family: 'Georgia', serif;
+	font-family: 'Palatino', serif;
 }
 
 .title {
 	font-size: 3rem;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Palatino', serif;
     text-align: center;
     margin: 4rem;
 }
@@ -79,12 +79,12 @@ a:hover {
 .subtitle {
 	font-size: 2rem;
 	text-align: center;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Arial', sans-serif;
 }
 
 .subsubtitle {
     font-size: 1.5rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Arial', sans-serif;
     text-align: center;
     margin: 1.5rem;
 }
@@ -107,8 +107,7 @@ a:hover {
 }
 
 .duvidas {
-	justify-content:center;
-	
+	justify-content:space-between;
 }
 
 .cduvidas {
