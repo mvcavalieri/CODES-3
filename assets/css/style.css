@@ -41,6 +41,7 @@ a:hover {
 	align-items: center;
 	margin-right: 0.65rem;
 	font-family: 'Palatino', serif;
+	font-color: black;
 }
 
 .container {
@@ -69,6 +70,7 @@ a:hover {
 	flex-direction: column; /*serve para colocar o título embaixo da imagem*/
 	font-size: 1rem;
 	font-family: 'Palatino', serif;
+	font-color: black;
 }
 
 .title {
@@ -77,12 +79,14 @@ a:hover {
     text-align: center;
     margin: 4rem;
     color:#10162E;
+
 }
 
 .subtitle {
 	font-size: 2rem;
 	text-align: center;
 	font-family: 'Arial', sans-serif;
+	font-color: black;
 }
 
 .subsubtitle {
@@ -90,6 +94,7 @@ a:hover {
     font-family: 'Arial', sans-serif;
     text-align: center;
     margin: 1.5rem;
+    font-color: black;
 
 }
 
@@ -101,6 +106,7 @@ a:hover {
     left: 0;
     bottom: 0;
     width: 97%;
+    font-color: black;
 }
 
 .image {
@@ -119,7 +125,7 @@ a:hover {
 }
 
 .body{
-	background-color: #3B4973;
+	background-color: lightblue;
 }
 /*@media {
 
