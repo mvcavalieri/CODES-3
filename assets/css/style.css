@@ -24,6 +24,7 @@ a:hover {
     left: 0;
     bottom: 0;
     width: 97%;
+    background-color: #EDF5CE
 }
 
 .nav {
@@ -98,8 +99,8 @@ a:hover {
 }
 
 .image {
-	height:10rem;
-	width: 10rem;
+	height:20rem;
+	width: 20rem;
 	display: inline;
 	justify-content: flex-end; 
 }
@@ -111,6 +112,10 @@ a:hover {
 
 .cduvidas {
 	margin: 2rem;
+}
+
+.body{
+	background-color: #3B4973;
 }
 /*@media {
 
