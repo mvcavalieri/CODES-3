@@ -78,7 +78,7 @@ a:hover {
 	font-family: 'Palatino', serif;
     text-align: center;
     margin: 4rem;
-    color:#10162E;
+    font-color: #10162E; 
 
 }
 
@@ -110,8 +110,8 @@ a:hover {
 }
 
 .image {
-	height:20rem;
-	width: 20rem;
+	height:15rem;
+	width: 15rem;
 	display: inline;
 	justify-content: flex-end; 
 }
@@ -125,7 +125,7 @@ a:hover {
 }
 
 .body{
-	background-color: lightblue;
+	background-color: white;
 }
 /*@media {
 
