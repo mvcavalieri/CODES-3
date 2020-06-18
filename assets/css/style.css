@@ -32,7 +32,6 @@ a:hover {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	background-color: #EDF5CE;
 }
 
 .nav-item {
@@ -86,7 +85,7 @@ a:hover {
 	font-size: 2rem;
 	text-align: center;
 	font-family: 'Arial', sans-serif;
-	font-color: black;
+	font-color: #10162E;
 }
 
 .subsubtitle {
@@ -94,7 +93,7 @@ a:hover {
     font-family: 'Arial', sans-serif;
     text-align: center;
     margin: 1.5rem;
-    font-color: black;
+    font-color: #10162E;
 
 }
 
