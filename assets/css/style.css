@@ -24,7 +24,7 @@ a:hover {
     left: 0;
     bottom: 0;
     width: 97%;
-    background-color: #EDF5CE
+    background-color: #3B4973;
 }
 
 .nav {
@@ -77,7 +77,7 @@ a:hover {
 	font-family: 'Palatino', serif;
     text-align: center;
     margin: 4rem;
-    font-color: #10162E; 
+    font-color:black ; 
 
 }
 
@@ -85,7 +85,7 @@ a:hover {
 	font-size: 2rem;
 	text-align: center;
 	font-family: 'Arial', sans-serif;
-	font-color: #10162E;
+	font-color: #black;
 }
 
 .subsubtitle {
@@ -93,7 +93,7 @@ a:hover {
     font-family: 'Arial', sans-serif;
     text-align: center;
     margin: 1.5rem;
-    font-color: #10162E;
+    font-color: black;
 
 }
 
