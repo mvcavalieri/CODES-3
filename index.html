@@ -9,44 +9,34 @@
 	<link href = "./assets/css/reset.css" rel = "stylesheet">
 	<link href = "./assets/css/style.css" rel = "stylesheet">
 	<link href = "https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-    <script src = "./assets/js/codes.js"></script>
-    <script src = "./assets/js/index.js"></script>
+	<script src = "./assets/js/codes.js"></script>
+	<script src = "./assets/js/index.js"></script>
 </head>
 
 
 <body class = "body">
 
-	<h1 class="title">S.O.S. tech</h1>
-    
+	<h1 class="title_index">S.O.S. tech</h1>
+
 	<div class="container">
-		<h2 class="subtitle">Prontos para te ajudar</h2>
+		<h2 class="subtitle_index">Prontos para te ajudar</h2>
 	</div>
 
-<h3 class = "subsubtitle"> Qual aparelho você está usando?</h3>
+	<h3 class = "subsubtitle"> Qual aparelho você está usando?</h3>
 
 	<ul class = "aparelhos">
-		<li class = "aparelho"><a href="computador.html"><img class="image" src="assets/img/computador.png" alt="computador"></a><a href="computador.html"><h4>Computador</h4></a></li>
-		<li class = "aparelho"><a href="Celular.html"><img class="image" src="assets/img/celular.png" alt="celular"></a><a href="Celular.html"><h4>Celular</h4></a></li>
-	</ul>
-
-	<!--Arrumar depois-->
-	<ul class="categorias-pai">
-		{{#each Aparelho}}
-		<li class= "aparelho">
-		  <a href="aparelho.html?key={{@key}}"> "celular'</a>
-		  <img class="imagem" src="assets/img/{{this.imagem}}" alt="{{this.Aparelhos}}">
-		</li>
-			{{/each}}
+		<li class = "aparelho"><a href="computador.html"><img class="image" src="assets/img/computador.png" alt=computador"></a><a href="computador.html"><h4>Computador</h4></a></li>
+		<li class = "aparelho"><a href="Celular.html"><img class="image" src="assets/img/celular.png" alt="celular"><h4>Celular</h4></a></li>
 	</ul>
 
 	<footer class = "footer">
 		<ul class = "nav">
-			<li class = "nav-item"><button onclick="goBack()">Voltar</button><script>
+			<li class = "nav-item"><button class = 'button' onclick="goBack()">Voltar</button><script>
 				function goBack() {
- 					window.history.back();
+					window.history.back();
 				}
 			</script></li>
-			<li class = "nav-item"><a href="index.html">Home</a></li>
+			<li class = "nav-item"><a href="index.html" class='button'>Home</a></li>
 		</ul>
 	</footer>
 
