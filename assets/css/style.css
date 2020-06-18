@@ -6,19 +6,23 @@ a {
     text-decoration: none;
 }
 
-a:link a:visited {
-    color: blue;
-  }
+a:link {
+	color: black;
+}
+
+a:visited {
+    color: black;
+ }
 
 a:hover {
-    color: red;
+    color: black;
 }
 
 .footer {
 	border-style: solid;
 	border-width: 0.0625rem;
     margin: 0.65rem;
-	padding: 0.65rem;
+	padding: 2.65rem;
     display: flex; 
     position: fixed;
     left: 0;
@@ -43,6 +47,17 @@ a:hover {
 	font-color: black;
 }
 
+.button {
+  background-color: #3B4973;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2.65rem;
+  font-family: 'Palatino', serif;
+}
+
 .container {
 	margin: 1.25rem;
 	display: flex;
@@ -62,37 +77,56 @@ a:hover {
 .aparelho {
 	max-width: 14rem;
 	max-height: 14rem;
-	margin: 1rem;
+	margin: 4rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column; /*serve para colocar o título embaixo da imagem*/
-	font-size: 1rem;
+	font-size: 3rem;
 	font-family: 'Palatino', serif;
 	font-color: black;
 }
 
 .title {
-	font-size: 3rem;
+	font-size: 5rem;
 	font-family: 'Palatino', serif;
     text-align: center;
     margin: 4rem;
+    margin-top: 10rem;
     font-color:black ; 
 
 }
 
+/* Index foram usados no html index*/
+.title_index {
+	font-size: 6rem;
+	font-family: 'Palatino', serif;
+    text-align: center;
+    margin-top: 10rem;
+    font-color:black ; 
+}
+
 .subtitle {
-	font-size: 2rem;
+	font-size: 4rem;
+	text-align: center;
+	font-family: 'Palatino', sans-serif;
+	font-color: #black;
+	margin-bottom: 4rem;
+}
+
+.subtitle_index {
+	font-size: 4rem;
 	text-align: center;
 	font-family: 'Arial', sans-serif;
 	font-color: #black;
+	margin-bottom: 4rem;
 }
 
 .subsubtitle {
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-family: 'Arial', sans-serif;
     text-align: center;
-    margin: 1.5rem;
+    margin: 3rem;
     font-color: black;
 
 }
@@ -111,8 +145,28 @@ a:hover {
 .image {
 	height:15rem;
 	width: 15rem;
+	margin: 1.5rem;
 	display: inline;
 	justify-content: flex-end; 
+}
+
+.screenshot {
+	height: 90rem;
+	width: 54rem;
+	margin: 1.5rem;
+	display: inline;
+	justify-content: flex-end; 
+	align-items: center;
+}
+
+/* Essa classe é para onsertar o print do Itaú de código de barras */
+.screenshot_cut {
+	height: 70rem;
+	width: 56rem;
+	margin: 1.5rem;
+	display: inline;
+	justify-content: flex-end; 
+	align-items: center;
 }
 
 .duvidas {
