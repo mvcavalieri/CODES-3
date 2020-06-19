@@ -131,6 +131,15 @@ a:hover {
 
 }
 
+/*Não tão mini assim*/
+.mini_text {
+  font-size: 1.25rem;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 3rem;
+  font-color: black;
+}
+
 .list-item {
     margin: 2rem;
 	padding: 0.65rem;
